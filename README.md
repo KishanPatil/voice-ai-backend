@@ -1,11 +1,11 @@
-# 🎤 Voice AI Backend
+#  Voice AI Backend
 
 This is the **backend** service for the Voice AI application.  
 It processes audio recorded from the frontend, converts it to a standard WAV format, and sends it to **Google Gemini API** for transcription or conversational AI responses.
 
 ---
 
-## 🚀 Features
+##  Features
 - **Audio Upload API** (`/api/voice`)
 - Audio format conversion using **FFmpeg** (16kHz Mono WAV)
 - Integration with **Google Gemini API** for speech-to-text and conversational AI
@@ -15,7 +15,7 @@ It processes audio recorded from the frontend, converts it to a standard WAV for
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 src/
 ├── config/
 │ └── env.js # Environment variables
@@ -31,7 +31,7 @@ src/
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 1. **Clone the repository**
 ```bash
